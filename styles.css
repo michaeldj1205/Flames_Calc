@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#result-container {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

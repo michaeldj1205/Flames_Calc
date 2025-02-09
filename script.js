@@ -20,7 +20,7 @@ function calculateFLAMES() {
     });
 
     let remainingCount = name1Arr.length + name2Arr.length;
-    let flames = ["Friends", "Lovers", "Affection", "Marriage", "Enemies", "soulmates"];
+    let flames = ["Friends", "Lovers", "Asawa", "Magkaaway", "Engaged", "soulmates"];
 
     let index = (remainingCount % flames.length) - 1;
     if (index < 0) {
